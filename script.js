@@ -1,13 +1,14 @@
 // script.js
 
 function initMap() {
-    var location = {lat: 38.736946, lng: -9.142685}; // Coordenadas para Lisboa, Portugal
+    var location = { lat: 37.995182, lng: -7.830125 }; // Coordenadas da localização fornecida
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 15,
+        zoom: 14,
         center: location
     });
     var marker = new google.maps.Marker({
         position: location,
-        map: map
+        map: map,
+        title: "ALvenaria 4"
     });
 }
