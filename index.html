@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALvenaria 4 - Construção e Remodelação</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="ALvenaria 4 Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#location">Localização</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo à ALvenaria 4</h1>
+            <p>Transformamos sua visão em realidade.</p>
+            <a href="#contact" class="btn-hero">Entre em Contato</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>A ALvenaria 4 é especializada em remodelação e obras em geral, oferecendo soluções completas e personalizadas para cada cliente.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="service-item">
+                <i class="fas fa-paint-roller"></i>
+                <h3>Remodelação de interiores</h3>
+                <p>Transformamos espaços internos com qualidade e precisão.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-tools"></i>
+                <h3>Construção de novas estruturas</h3>
+                <p>Projetos de construção de alta qualidade e durabilidade.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-hammer"></i>
+                <h3>Obras de manutenção</h3>
+                <p>Serviços de manutenção para manter sua propriedade em ótimo estado.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-drafting-compass"></i>
+                <h3>Consultoria e projetos</h3>
+                <p>Consultoria especializada e projetos personalizados.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="project-item">
+                <img src="images/project1.jpg" alt="Projeto 1">
+                <p>Descrição do Projeto 1</p>
+            </div>
+            <div class="project-item">
+                <img src="images/project2.jpg" alt="Projeto 2">
+                <p>Descrição do Projeto 2</p>
+            </div>
+            <!-- Adicionar mais projetos conforme necessário -->
+        </div>
+    </section>
+
+    <section id="location" class="location">
+        <div class="container">
+            <h2>Localização</h2>
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: contato@alvenaria4.com</p>
+                <p>Telefone: +351 123 456 789</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ALvenaria 4. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0ZMN_pRLMvK0FgJalGugdwabMKJT8K3s&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
