@@ -1,7 +1,7 @@
 // script.js
 
 function initMap() {
-    var location = {lat: -25.344, lng: 131.036}; // Coordenadas da localização
+    var location = {lat: 38.736946, lng: -9.142685}; // Coordenadas para Lisboa, Portugal
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 15,
         center: location
